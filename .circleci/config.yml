@@ -14,7 +14,7 @@ jobs:
       - run: echo "A first hello"
 workflows:
   version: 2
-  one_and_two:
+  both:
     jobs:
-      - one
-      - two
+      - first
+      - second
